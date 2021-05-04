@@ -18,11 +18,11 @@
     ] 
 function searchName(param1, param2, callback) {
     
-    let text = param1
+ 
     const filtered = name.filter((item) => {
-        return item.includes(text)
+        return item.toLowerCase().includes(param1)
       })
-      .splice(!param2)
+      .slice(0,param2)
     return callback(filtered)
   }
   
