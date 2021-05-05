@@ -70,10 +70,11 @@ console.log(string_1.toLowerCase())
 let string_2 = "saya makan seafood"
 console.log(string_2.toUpperCase())
 
-// length, untuk menghitung panjang string
+// Metode concat () menggabungkan argumen string ke string pemanggil dan mengembalikan string baru.
 // contoh :
 let string_3 = "saya sedang olahraga di taman"
-console.log(string_3.length)
+let string_4 = "dan saya suka makan basko"
+console.log(string_3.concat(' ',string_4))
 
 // parseInt, mengubah string menjadi int atau number
 let string_4 = "2345"
